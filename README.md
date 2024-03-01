@@ -149,7 +149,7 @@ List of common dependencies for themes:
 ## Gentoo ([GURU])
 
 ```sh
-sudo layman -a guru && sudo emerge --sync
+sudo eselect repository enable guru && sudo emerge --sync
 sudo emerge --ask --verbose x11-wm/leftwm
 ```
 
